@@ -1,24 +1,21 @@
-# README
+# Rails Stipe Mails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project we use two new gems:
+  - `stripe`, to add a payment service on our website
+  - `mailjet`, to send a welcome email to those who just subscribed to our newsletter.
 
-Things you may want to cover:
+From the landing page, the customer is directed to a payment page, he can there pay with Stripe. Once done, the user will receive a welcome email, using Mailjet's API.
 
-* Ruby version
+On this project we also used a rails master key for Heroku.
 
-* System dependencies
+To install the app dependencies, start the db and seed it :
+```sh
+$ bundle install
+$ rails db:migrate
+$ rails db:seed
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To start the run the app locally
+```sh
+$ rails s
+```
