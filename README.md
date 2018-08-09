@@ -1,4 +1,6 @@
-# Rails Stipe Mails
+# Rails Stripe Mails
+
+[https://github.com/ticho/rails-stripe-mails](https://github.com/ticho/rails-stripe-mails)
 
 In this project we use two new gems:
   - `stripe`, to add a payment service on our website
