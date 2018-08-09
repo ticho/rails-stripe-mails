@@ -19,3 +19,5 @@ To start the run the app locally
 ```sh
 $ rails s
 ```
+
+Made with love by Tibo and Badr
