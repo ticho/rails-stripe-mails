@@ -1,6 +1,6 @@
 # Rails Stripe Mails
 
-[https://github.com/ticho/rails-stripe-mails](https://github.com/ticho/rails-stripe-mails)
+[https://tibo-stripe-mails.herokuapp.com](https://tibo-stripe-mails.herokuapp.com)
 
 In this project we use two new gems:
   - `stripe`, to add a payment service on our website
